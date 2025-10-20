@@ -1,0 +1,26 @@
+{
+  "system": {
+    "seed": 3407,
+    "work_dir": "./out/countchar"
+  },
+  "data": {
+    "max_len": 16,
+    "alphabet": "abcdefghijklmnopqrstuvwxyz",
+    "reverse_out": false,
+    "balanced": true,
+    "sep_char": "|",
+    "eos_char": "~"
+  },
+  "model": {
+    "model_type": "gpt-mini"
+  },
+  "trainer": {
+    "learning_rate": 0.0005,
+    "batch_size": 256,
+    "max_iters": 6000,
+    "num_workers": 0,
+    "eval_interval": 200,
+    "val_batches": 20,
+    "acc_samples": 1000
+  }
+}
