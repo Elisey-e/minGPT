@@ -1,0 +1,7 @@
+numpy>=1.24
+matplotlib>=3.8
+
+--index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+
+git+https://github.com/Elisey-e/minGPT.git@03c5cd6e0797e52ff82d605c87a85a969f882052
